@@ -1,0 +1,29 @@
+result = 10 * 6;
+if result > 50
+{
+  Console.WriteLine("result is greater than 50");
+}
+string carColor = "red";
+if (carColor == "red")
+{
+  Console.WriteLine("This car is red!");
+}
+x = 12;
+y = 13;
+if x != y
+{
+  Console.WriteLine("These two numbers are not the same");
+}
+string redFish = 4;
+string blueFish = 5;
+if blueFish > redFish
+{
+  Console.WriteLine("Blue fish is bigger than red fish");
+}
+string jazzVote = 200;
+string classicVote = 180;
+string rockVote = 250;
+if rockVote > classicVote and rockVote > jazzVote 
+{
+  Console.WriteLine("More people voted for rock music");
+}
