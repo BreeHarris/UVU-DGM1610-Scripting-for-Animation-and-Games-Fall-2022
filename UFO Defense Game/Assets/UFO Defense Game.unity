@@ -425,7 +425,8 @@ MonoBehaviour:
   - {fileID: 5767187947657308241, guid: 62b43a986d058b441b0b2106662b1291, type: 3}
   - {fileID: 2407658640529350378, guid: f98152d9e24dcb34482c90465bc5578f, type: 3}
   - {fileID: 2066750236983106951, guid: cff0cab4533a2ed4aa42b850fc6d0f3b, type: 3}
-  spawnRangeX: 0
+  spawnRangeX: 10
+  spawnPosZ: 30
 --- !u!1 &1634834917
 GameObject:
   m_ObjectHideFlags: 0
