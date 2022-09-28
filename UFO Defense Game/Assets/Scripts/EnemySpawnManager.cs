@@ -5,7 +5,8 @@ using UnityEngine;
 public class EnemySpawnManager : MonoBehaviour
 {
     public GameObject[] enemyPrefabs;
-    private float spawnRangeX;
+    [SerializeField]
+    private float spawnRangeX = 9.0f;
     private float spawnPosZ;
 
 
