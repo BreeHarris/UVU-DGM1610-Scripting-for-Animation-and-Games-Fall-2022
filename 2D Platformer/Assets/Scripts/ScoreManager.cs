@@ -19,7 +19,7 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //scoreText = GetComponent<TextMeshProUGUI>
+        scoreText = GetComponent<TextMeshProUGUI>();
     }
     //This function rewards the player
 
