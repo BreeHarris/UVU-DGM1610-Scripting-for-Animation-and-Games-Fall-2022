@@ -46,10 +46,10 @@ public class PlayerController : MonoBehaviour
         float z = Input.GetAxis("Vertical") * moveSpeed; // Getting input for forward and back
        
         //Walk in direciton player is looking in
-        Vector3 dir = transform.right * x + transform.forward * z
+        Vector3 dir = transform.right * x + transform.forward * z;
         dir.y = rb.velocity.y; //Direction
         //rb.velocity = new Vector3(x, rb.velocity.y, z); // Apply velocity to the x and z axes to drive player
-        
+        rb.velocity = dir; // Move directional based on camera movement
     }
 
     void CameraLook()
