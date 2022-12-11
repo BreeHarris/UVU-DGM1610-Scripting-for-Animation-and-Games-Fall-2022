@@ -7,7 +7,7 @@ public class HomeBase : MonoBehaviour
     private GameManager gm;
     private Renderer flagRend;
 
-/*
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +17,7 @@ public class HomeBase : MonoBehaviour
         flagRend.enabled = false; // Hide Flag
     }
 
-*/    
+   
     void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player") && gm.hasFlag)

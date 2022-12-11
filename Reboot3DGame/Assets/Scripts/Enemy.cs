@@ -36,14 +36,17 @@ public class Enemy : MonoBehaviour
     void UpdatePath()
     {
         //Calculate a path to the target
+        //transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
         NavMeshPath navMeshPath = new NavMeshPath();
         NavMesh.CalculatePath(transform.position, target.transform.position, NavMesh.AllAreas, navMeshPath);
 
         path = navMeshPath.corners.ToList();
+        
     }
 
     void ChaseTarget()
     {
+        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
         if(path.Count == 0)
             return;
 

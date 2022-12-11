@@ -49,6 +49,7 @@ public class Pickup : MonoBehaviour
            }
            //Reference Audio source to play sound effect
            //other.GetComponent<AudioSource>().PlayOneShot(pickupSFX);*/ 
+           Debug.Log("Item has been picked up!");
            Destroy(gameObject);
         }
     }
